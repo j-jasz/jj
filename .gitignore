@@ -1,0 +1,24 @@
+# directories
+/.stfolder
+/favicon
+/fonts
+/media
+
+# files
+.htaccess
+.htaccess-BACKUP
+folder.png
+projects
+robots.txt
+
+# extensions
+*.htaccess
+*.png
+*.jpg
+*.webp
+*.eot
+*.ttf
+*.woff
+*.woff2
+*.svg
+*.log
