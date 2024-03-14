@@ -4,4 +4,9 @@ Personal website.
 
 TODO:
 - news/blog
-- MARIA
+ - ŁÓDŹ
+ - MARIA ?
+ - POMERANIA
+- gallery
+ - MARIA
+- Github link
