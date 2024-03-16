@@ -7,6 +7,7 @@ TODO:
    - ŁÓDŹ
    - MARIA ?
    - POMERANIA
+   - AI
 - gallery
    - MARIA
 - Github link
