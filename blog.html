@@ -1,246 +1,322 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]>	<html class="ie ie6 no-js" lang="en"> <![endif]-->
-<!--[if IE 7 ]>		<html class="ie ie7 no-js" lang="en"> <![endif]-->
-<!--[if IE 8 ]>		<html class="ie ie8 no-js" lang="en"> <![endif]-->
-<!--[if IE 9 ]>		<html class="ie ie9 no-js" lang="en"> <![endif]-->
-<!--[if gt IE 9]>	<html class="no-js" lang="en"> <![endif]-->
+<!--[if lt IE 7 ]>  <html class="ie ie6 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>     <html class="ie ie7 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>     <html class="ie ie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>     <html class="ie ie9 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]>   <html class="no-js" lang="en"> <![endif]-->
 
 <html lang="en">
 <head>
-	<title>Jakub Jaszewski - News</title>
-	<meta charset="UTF-8"/>
-	<meta name="description" content="News - Jakub Jaszewski. The Art of printmaking by the motto Ars Aurea Ars Animosa. Beautiful and modern artistic linocuts and digital prints."/>
-	<meta name="author" content="Jakub Jaszewski"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<link rel="canonical" href="https://jaszewski.art/blog"/>
-		<link rel="stylesheet" href="https://jaszewski.art/swiper@7.3.1/swiper-bundle.min.css"/>
-		<link rel="stylesheet" href="https://jaszewski.art/blog.css"/>
-	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
+    <title>Jakub Jaszewski - News</title>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="News - Jakub Jaszewski. The Art of printmaking by the motto Ars Aurea Ars Animosa. Beautiful and modern artistic linocuts and digital prints."/>
+    <meta name="author" content="Jakub Jaszewski"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="canonical" href="https://jaszewski.art/blog"/>
+        <link rel="stylesheet" href="https://jaszewski.art/swiper@7.3.1/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="https://jaszewski.art/blog.css"/>
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
-	<style>
-		/* montserrat-regular - latin-ext_latin */
-		@font-face {
-		  font-family: 'Montserrat';
-		  font-style: normal;
-		  font-weight: 400;
-		  font-display: swap;
-		  src: url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-regular.eot'); /* IE9 Compat Modes */
-		  src: local('Montserrat Light'), local('Montserrat-Light'),
-			   url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-			   url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-			   url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-regular.woff') format('woff'), /* Modern Browsers */
-			   url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-			   url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
-		}
-		/* montserrat-500 - latin-ext_latin */
-		@font-face {
-		  font-family: 'Montserrat';
-		  font-style: normal;
-		  font-weight: 500;
-		  font-display: swap;
-		  src: url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-500.eot'); /* IE9 Compat Modes */
-		  src: local('Montserrat'),
-			   url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-			   url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-500.woff2') format('woff2'), /* Super Modern Browsers */
-			   url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-500.woff') format('woff'), /* Modern Browsers */
-			   url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
-			   url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-500.svg#Montserrat') format('svg'); /* Legacy iOS */
-		}
-		/* montserrat-600 - latin-ext_latin */
-		@font-face {
-		  font-family: 'Montserrat';
-		  font-style: normal;
-		  font-weight: 600;
-		  font-display: swap;
-		  src: url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-600.eot'); /* IE9 Compat Modes */
-		  src: local('Montserrat Bold'), local('Montserrat-Bold'),
-			   url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-			   url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-600.woff2') format('woff2'), /* Super Modern Browsers */
-			   url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-600.woff') format('woff'), /* Modern Browsers */
-			   url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
-			   url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-600.svg#Montserrat') format('svg'); /* Legacy iOS */
-		}
-		@font-face {
-			font-family: 'cinzel-reg';
-			src: local('Cinzel Regular'), local('Cinzel-Regular'), url('https://jaszewski.art/fonts/cinzel-regular-webfont.eot');
-			src: local('Cinzel Regular'), local('Cinzel-Regular'), url('https://jaszewski.art/fonts/cinzel-regular-webfont.eot?#iefix') format('embedded-opentype'),
-				 url('https://jaszewski.art/fonts/cinzel-regular-webfont.woff2') format('woff2'),
-				 url('https://jaszewski.art/fonts/cinzel-regular-webfont.woff') format('woff'),
-				 url('https://jaszewski.art/fonts/cinzel-regular-webfont.ttf') format('truetype');
-			font-weight: normal;
-			font-style: normal;
-			font-display: swap;
-		}
-		@font-face {
-			font-family: 'cinzel-bold';
-			src: local('Cinzel Bold'), local('Cinzel-Bold'), url('https://jaszewski.art/fonts/cinzel-bold-webfont.eot');
-			src: local('Cinzel Bold'), local('Cinzel-Bold'), url('https://jaszewski.art/fonts/cinzel-bold-webfont.eot?#iefix') format('embedded-opentype'),
-				 url('https://jaszewski.art/fonts/cinzel-bold-webfont.woff2') format('woff2'),
-				 url('https://jaszewski.art/fonts/cinzel-bold-webfont.woff') format('woff'),
-				 url('https://jaszewski.art/fonts/cinzel-bold-webfont.ttf') format('truetype');
-			font-weight: normal;
-			font-style: normal;
-			font-display: swap;
-		}
-	</style>
+    <style>
+        /* montserrat-regular - latin-ext_latin */
+        @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-regular.eot'); /* IE9 Compat Modes */
+            src: local('Montserrat Light'), local('Montserrat-Light'),
+                url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+                url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+                url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-regular.woff') format('woff'), /* Modern Browsers */
+                url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+                url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+        }
+        /* montserrat-500 - latin-ext_latin */
+        @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-500.eot'); /* IE9 Compat Modes */
+            src: local('Montserrat'),
+                url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+                url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+                url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-500.woff') format('woff'), /* Modern Browsers */
+                url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+                url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-500.svg#Montserrat') format('svg'); /* Legacy iOS */
+        }
+        /* montserrat-600 - latin-ext_latin */
+        @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-600.eot'); /* IE9 Compat Modes */
+            src: local('Montserrat Bold'), local('Montserrat-Bold'),
+                url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+                url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+                url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-600.woff') format('woff'), /* Modern Browsers */
+                url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+                url('https://jaszewski.art/fonts/montserrat-v18-latin-ext_latin-600.svg#Montserrat') format('svg'); /* Legacy iOS */
+        }
+        @font-face {
+            font-family: 'cinzel-reg';
+            src: local('Cinzel Regular'), local('Cinzel-Regular'), url('https://jaszewski.art/fonts/cinzel-regular-webfont.eot');
+            src: local('Cinzel Regular'), local('Cinzel-Regular'), url('https://jaszewski.art/fonts/cinzel-regular-webfont.eot?#iefix') format('embedded-opentype'),
+                url('https://jaszewski.art/fonts/cinzel-regular-webfont.woff2') format('woff2'),
+                url('https://jaszewski.art/fonts/cinzel-regular-webfont.woff') format('woff'),
+                url('https://jaszewski.art/fonts/cinzel-regular-webfont.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'cinzel-bold';
+            src: local('Cinzel Bold'), local('Cinzel-Bold'), url('https://jaszewski.art/fonts/cinzel-bold-webfont.eot');
+            src: local('Cinzel Bold'), local('Cinzel-Bold'), url('https://jaszewski.art/fonts/cinzel-bold-webfont.eot?#iefix') format('embedded-opentype'),
+                url('https://jaszewski.art/fonts/cinzel-bold-webfont.woff2') format('woff2'),
+                url('https://jaszewski.art/fonts/cinzel-bold-webfont.woff') format('woff'),
+                url('https://jaszewski.art/fonts/cinzel-bold-webfont.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+    </style>
 </head>
 
 <body contenteditable="false" class="dark-mode">
 
-	<div id="wrapper-header-gallery">
-		<h1 id="header-gallery" class="cinzel">Blog - linocuts, digital prints and more</h1>
-	</div>
+    <div id="wrapper-header-gallery">
+        <h1 id="header-gallery" class="cinzel">Blog - linocuts, digital prints and more</h1>
+    </div>
 
-	<div id="logo-left" class="cursor-pointer" onclick="toggleMenuLeft()">
-		<img src="https://jaszewski.art/media/logo.svg" style="position: absolute; margin: 2.25vh 0 0 2.25vh; width: 5.5vh; height: 5.5vh; outline: none; border: none;" alt="Jakub Jaszewski Graphics white logo on red background.">
-		<div id="hamburger">
-			<!--	☰  - white/bar replacement ? -->
-			<div class="white"></div>
-			<div class="bar"></div>
-			<div class="white"></div>
-			<div class="bar"></div>
-			<div class="white"></div>
-		</div>
-	</div>
-	<div id="menu-left" class="width0">
-		<div id="shade" class="cursor-pointer" onclick="toggleMenuLeft()">
-			<div id="shade-box">
-				<div id="xh" class="xline-h"></div>
-				<div id="xv" class="xline-v"></div>
-			</div>
-		</div>
-		<div id="menu">
-			<div id="menu-placeholder">
-				<div id="red-square"></div>
-				<div id="horiz-grad" class="cursor-pointer" onclick="toggleMenuLeft()">
-					<div id="min-shade-box">
-						<div id="xsh" class="xline-h"></div>
-						<div id="xsv" class="xline-v"></div>
-					</div>
-				</div>
-			</div>
-			<div id="menu-box">
-				<div id="menu-name" class="cinzel">JAKUB JASZEWSKI</div>
-				<div class="line-white"></div>
-				<div id="btn-home" class="btn"><a href="https://jaszewski.art" onclick="toggleMenuLeft()">home<div class="btn-grad"></div></a></div>
-				<div id="btn-gall" class="btn"><a href="https://jaszewski.art/gallery" id="redirect" onclick="toggleMenuLeft()">gallery<div class="btn-ch-grad"></div></a></div>
-				<div id="btn-blog" class="btn"><a href="https://jaszewski.art/blog" onclick="toggleMenuLeft()">blog<div class="btn-grad"></div></a></div>
-				<div id="btn-bio" class="btn"><a href="https://jaszewski.art#about" onclick="toggleMenuLeft()">about<div class="btn-grad"></div></a></div>
-				<div id="btn-mail" class="btn"><a href="https://jaszewski.art#contact" onclick="toggleMenuLeft()">contact<div class="btn-grad"></div></a></div>
-				<div id="btn-inst" class="btn"><a href="https://instagram.com/jaszewski.art" onclick="toggleMenuLeft()">instagram<div class="btn-grad"></div></a></div>
-			</div>
-		</div>
-	</div>
+    <div id="logo-left" class="cursor-pointer" onclick="toggleMenuLeft()">
+        <img src="https://jaszewski.art/media/logo.svg" style="position: absolute; margin: 2.25vh 0 0 2.25vh; width: 5.5vh; height: 5.5vh; outline: none; border: none;" alt="Jakub Jaszewski Graphics white logo on red background.">
+        <div id="hamburger">
+            <!--    ☰  - white/bar replacement ? -->
+            <div class="white"></div>
+            <div class="bar"></div>
+            <div class="white"></div>
+            <div class="bar"></div>
+            <div class="white"></div>
+        </div>
+    </div>
+    <div id="menu-left" class="width0">
+        <div id="shade" class="cursor-pointer" onclick="toggleMenuLeft()">
+            <div id="shade-box">
+                <div id="xh" class="xline-h"></div>
+                <div id="xv" class="xline-v"></div>
+            </div>
+        </div>
+        <div id="menu">
+            <div id="menu-placeholder">
+                <div id="red-square"></div>
+                <div id="horiz-grad" class="cursor-pointer" onclick="toggleMenuLeft()">
+                    <div id="min-shade-box">
+                        <div id="xsh" class="xline-h"></div>
+                        <div id="xsv" class="xline-v"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="menu-box">
+                <div id="menu-name" class="cinzel">JAKUB JASZEWSKI</div>
+                <div class="line-white"></div>
+                <div id="btn-home" class="btn"><a href="https://jaszewski.art" onclick="toggleMenuLeft()">home<div class="btn-grad"></div></a></div>
+                <div id="btn-gall" class="btn"><a href="https://jaszewski.art/gallery" id="redirect" onclick="toggleMenuLeft()">gallery<div class="btn-ch-grad"></div></a></div>
+                <div id="btn-blog" class="btn"><a href="https://jaszewski.art/blog" onclick="toggleMenuLeft()">blog<div class="btn-grad"></div></a></div>
+                <div id="btn-bio" class="btn"><a href="https://jaszewski.art#about" onclick="toggleMenuLeft()">about<div class="btn-grad"></div></a></div>
+                <div id="btn-mail" class="btn"><a href="https://jaszewski.art#contact" onclick="toggleMenuLeft()">contact<div class="btn-grad"></div></a></div>
+                <div id="btn-inst" class="btn"><a href="https://instagram.com/jaszewski.art" onclick="toggleMenuLeft()">instagram<div class="btn-grad"></div></a></div>
+            </div>
+        </div>
+    </div>
 
 <!-- THEME -->
 
-	<div id="theme" class="dark-mode" onclick="toggleMode()">
-		<div id="t-line" class="line-light"></div>
-		<div id="sun" class="light-mode">
-			<div class="light-mode sun-line"></div>
-			<div class="light-mode sun-line rot45"></div>
-			<div class="light-mode sun-line rot90"></div>
-			<div class="light-mode sun-line rot135"></div>
-		</div>
-		<div id="moon" class="light-mode">
-			<div id="moon-crest" class="dark-mode"></div>
-		</div>
-	</div>
+    <div id="theme" class="dark-mode" onclick="toggleMode()">
+        <div id="t-line" class="line-light"></div>
+        <div id="sun" class="light-mode">
+            <div class="light-mode sun-line"></div>
+            <div class="light-mode sun-line rot45"></div>
+            <div class="light-mode sun-line rot90"></div>
+            <div class="light-mode sun-line rot135"></div>
+        </div>
+        <div id="moon" class="light-mode">
+            <div id="moon-crest" class="dark-mode"></div>
+        </div>
+    </div>
 
 <!-- CONTENT -->
 
- 		<div id="column-menu">
-			<div class="contener-year">
-				<div  class="year">2021</div>
-					<ul class="entry-menu">
-						<li><a href="#recent-graphics" class="dark-mode">Recent development - Following the idea of hybrid printmaking.</a></li>
-					</ul>
-			</div>
-			<div class="contener-year">
-				<div  class="year">2020</div>
-					<ul class="entry-menu">
-						<li><a href="#mfg-lodz-2020" class="dark-mode">Honorary Medal at the 17th International Triennial of Small Graphic Forms - Łódź, Poland</a></li>
-					</ul>
-			</div>
-		</div>
+        <div id="column-menu">
+            <div class="contener-year">
+                <div  class="year">2021</div>
+                    <ul class="entry-menu">
+                        <li><a href="#recent-graphics" class="dark-mode">Recent development - Following the idea of hybrid printmaking.</a></li>
+                    </ul>
+            </div>
+            <div class="contener-year">
+                <div  class="year">2020</div>
+                    <ul class="entry-menu">
+                        <li><a href="#mfg-lodz-2020" class="dark-mode">Honorary Medal at the 17th International Triennial of Small Graphic Forms - Łódź, Poland</a></li>
+                    </ul>
+            </div>
+        </div>
 
-		<div id="column-content">
-			<hr id="top-separator" class="light-mode">
-			<div id="recent-graphics" class="entry">
-				<h2>Recent development - Following the idea of hybrid printmaking.</h2>
-				<h3>When you do something, either do it well or not at all.</h3>
-				<div class="two-column">
-					<p>Combining the opposites of linocut and digital print, which I had used for the first time in the RITES series still has a potential to be further explored and applied in different artworks. These are, anyway, my conclusions after the period of well-deserved creative rest that I allowed myself after completing this series. Since then, I also had the opportunity to experiment with some more digital prints, produce a few small graphic form and completely reorganize the graphic 'backend', which can be extremely boring for the average viewer, but it allows for an uninterrupted and flexible workflow and expansion into new territories.</p>
-					<br>
-					<p>Looking at the gallery section, the relatively recent works started with an inconspicuous collection of full-format digital prints tentatively named [CYBER]. A few technical solutions that worked out well there I transferred into the new series, and that is how Grand Silica was conceived. Once the working method was mastered, the series was ready in just a few days. Just a mention here that all the work has so far been done only in two-dimension. Working on one of the last Grand Silica pieces, the idea of including 3D elements in 2D re-emerged. It just so happened that I was changing my 3D work environment from 3DsMAX to Blender at that time, so I followed that lead and got to know some  intricacies of mantaflow - the fluid and smoke simulation engine in Blender. You can see this new addition in the form of rendered smoke in the graphic 'Nidor Acidus'.</p>
-					<br>
-					<p>Of course, it didn't stop there. From then on the plan was simple - the next 'Silicas' were to be fully or mostly 3D. And that was only the beginning. After a while, this simple concept for my next artwork grew to the point of becoming an independent series; this endeavour consumed over a year and a half of my time, energy and money. So far, the results are three rather gigantic - in terms of a technical challenge - 3D scenes. I could render them right away in the form of ready-made graphics, but for now I'm holding back, hoping that the new revitalized version of the Cycles engine - preferably with caching and automatic texture mipmapping - will allow me to drastically reduce the rendering time and, at the same time, improve the quality of many elements in the scene. For better light control the light-linking option would also be useful.</p>
-					<br>
-					<p>I fill this time creatively by working on my next pieces. What about Grand Silica then? Time will tell...</p>
-				</div>
-				<hr class="separator light-mode">
-			</div>
-			<div id="mfg-lodz-2020" class="entry">
-				<h2>Honorary Medal at the 17th International Triennial of Small Graphic Forms - Łódź, Poland</h2>
-				<h3>An Insight into Poland's Iconic Graphic Art Showcase</h3>
-				<div class="two-column">
-					<p>The 17th International Triennial of Small Graphic Forms organized by The City Gallery of Art in Łódź is, along with The International Print Triennial in Kraków, one of the most important events devoted to graphic art not only in Poland but also recognised worldwide, which can be proved by its unabated popularity. This Triennial has a very rich history that goes back to the 70s of the previous century when its first edition took place.</p>
-					<br>
-					<p>Traditionally, at this competition the jury awards ten equivalent Honorary Medals instead of the first, second and third prize. Also, a post-competition auction of the miniature prints is organized. The main event takes place in a stunning Art Nouveau Leopold Kindermann's Villa designed by Gustaw Landau-Gutenteger. Accompanying exhibitions also take place – on display are the prints made by the laureates of previous exhibitions alongside with collections of the City Gallery of Art in Lódź.</p>
-					<br>
-					<p>Jakub Jaszewski (PhD) is one of the artists granted the Honorary Medal in this year's 17th edition of International Triennial of Small Graphic Forms. The awarded prints are part of the [MIKRO CYBER] series comprising thirty mini prints. Colourful, somewhat abstract compositions take on the subject of popularization of electronics and they refer stylistically to the 80s and 90s of the previous century.</p>
-					<br>
-					<p>The exhibition-opening and prize-awarding ceremony took place without an audience and was transmitted on the Triennale Facebook page.</p>
-				</div>
-				<hr class="separator light-mode">
-			</div>
-		</div>
+        <div id="column-content">
+            <hr id="top-separator" class="light-mode">
+            <div id="recent-graphics" class="entry">
+                <h2>Recent development - Following the idea of hybrid printmaking.</h2>
+                <h3>When you do something, either do it well or not at all.</h3>
+                <div class="two-column">
+                    <p>Combining the opposites of linocut and digital print, which I had used for the first time in the RITES series still has a potential to be further explored and applied in different artworks. These are, anyway, my conclusions after the period of well-deserved creative rest that I allowed myself after completing this series. Since then, I also had the opportunity to experiment with some more digital prints, produce a few small graphic form and completely reorganize the graphic 'backend', which can be extremely boring for the average viewer, but it allows for an uninterrupted and flexible workflow and expansion into new territories.</p>
+                    <br>
+                    <p>Looking at the gallery section, the relatively recent works started with an inconspicuous collection of full-format digital prints tentatively named [CYBER]. A few technical solutions that worked out well there I transferred into the new series, and that is how Grand Silica was conceived. Once the working method was mastered, the series was ready in just a few days. Just a mention here that all the work has so far been done only in two-dimension. Working on one of the last Grand Silica pieces, the idea of including 3D elements in 2D re-emerged. It just so happened that I was changing my 3D work environment from 3DsMAX to Blender at that time, so I followed that lead and got to know some  intricacies of mantaflow - the fluid and smoke simulation engine in Blender. You can see this new addition in the form of rendered smoke in the graphic 'Nidor Acidus'.</p>
+                    <br>
+                    <p>Of course, it didn't stop there. From then on the plan was simple - the next 'Silicas' were to be fully or mostly 3D. And that was only the beginning. After a while, this simple concept for my next artwork grew to the point of becoming an independent series; this endeavour consumed over a year and a half of my time, energy and money. So far, the results are three rather gigantic - in terms of a technical challenge - 3D scenes. I could render them right away in the form of ready-made graphics, but for now I'm holding back, hoping that the new revitalized version of the Cycles engine - preferably with caching and automatic texture mipmapping - will allow me to drastically reduce the rendering time and, at the same time, improve the quality of many elements in the scene. For better light control the light-linking option would also be useful.</p>
+                    <br>
+                    <p>I fill this time creatively by working on my next pieces. What about Grand Silica then? Time will tell...</p>
+                </div>
+                <hr class="separator light-mode">
+            </div>
+            <div id="mfg-lodz-2020" class="entry">
+                <h2>Honorary Medal at the 17th International Triennial of Small Graphic Forms - Łódź, Poland</h2>
+                <h3>An Insight into Poland's Iconic Graphic Art Showcase</h3>
+                <div class="two-column">
+                    <p>The 17th International Triennial of Small Graphic Forms organized by The City Gallery of Art in Łódź is, along with The International Print Triennial in Kraków, one of the most important events devoted to graphic art not only in Poland but also recognised worldwide, which can be proved by its unabated popularity. This Triennial has a very rich history that goes back to the 70s of the previous century when its first edition took place.</p>
+                    <br>
+                    <p>Traditionally, at this competition the jury awards ten equivalent Honorary Medals instead of the first, second and third prize. Also, a post-competition auction of the miniature prints is organized. The main event takes place in a stunning Art Nouveau Leopold Kindermann's Villa designed by Gustaw Landau-Gutenteger. Accompanying exhibitions also take place – on display are the prints made by the laureates of previous exhibitions alongside with collections of the City Gallery of Art in Lódź.</p>
+                    <br>
+                    <p>Jakub Jaszewski (PhD) is one of the artists granted the Honorary Medal in this year's 17th edition of International Triennial of Small Graphic Forms. The awarded prints are part of the [MIKRO CYBER] series comprising thirty mini prints. Colourful, somewhat abstract compositions take on the subject of popularization of electronics and they refer stylistically to the 80s and 90s of the previous century.</p>
+                    <br>
+                    <p>The exhibition-opening and prize-awarding ceremony took place without an audience and was transmitted on the Triennale Facebook page.</p>
+                </div>
+                <br><br>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide no-select">
+                            <img src="https://jaszewski.art/media/series/penumbra_300.webp"
+                                sizes="100vw"
+                                srcset="
+                                        https://jaszewski.art/media/series/penumbra_300.webp 300w,
+                                        https://jaszewski.art/media/series/penumbra_400.webp 400w,
+                                        https://jaszewski.art/media/series/penumbra_500.webp 500w,
+                                        https://jaszewski.art/media/series/penumbra_600.webp 600w,
+                                        https://jaszewski.art/media/series/penumbra_700.webp 700w,
+                                        https://jaszewski.art/media/series/penumbra_800.webp 800w,
+                                        https://jaszewski.art/media/series/penumbra_900.webp 900w,
+                                        https://jaszewski.art/media/series/penumbra_1000.webp 1000w,
+                                        https://jaszewski.art/media/series/penumbra_1250.webp 1250w,
+                                        https://jaszewski.art/media/series/penumbra_1400.webp 1400w,
+                                        https://jaszewski.art/media/series/penumbra_1600.webp 1600w,
+                                        https://jaszewski.art/media/series/penumbra_1920.webp 1920w,
+                                        https://jaszewski.art/media/series/penumbra_2000.webp 2000w,
+                                        https://jaszewski.art/media/series/penumbra_2560.webp 2560w,
+                                        https://jaszewski.art/media/series/penumbra_3000.webp 3000w"
+                                alt="Jakub Jaszewski - Silex Maioris from PENUMBRA series. A colorfull digital graphic made in 3D software - Blender." loading="lazy">
+                        </div>
+
+                        <div class="swiper-slide no-select">
+                            <img src="https://jaszewski.art/media/series/grand-silica_300.webp"
+                                sizes="100vw"
+                                srcset="
+                                        https://jaszewski.art/media/series/grand-silica_300.webp 300w,
+                                        https://jaszewski.art/media/series/grand-silica_400.webp 400w,
+                                        https://jaszewski.art/media/series/grand-silica_500.webp 500w,
+                                        https://jaszewski.art/media/series/grand-silica_600.webp 600w,
+                                        https://jaszewski.art/media/series/grand-silica_700.webp 700w,
+                                        https://jaszewski.art/media/series/grand-silica_800.webp 800w,
+                                        https://jaszewski.art/media/series/grand-silica_900.webp 900w,
+                                        https://jaszewski.art/media/series/grand-silica_1000.webp 1000w,
+                                        https://jaszewski.art/media/series/grand-silica_1250.webp 1250w,
+                                        https://jaszewski.art/media/series/grand-silica_1400.webp 1400w,
+                                        https://jaszewski.art/media/series/grand-silica_1600.webp 1600w,
+                                        https://jaszewski.art/media/series/grand-silica_1920.webp 1920w,
+                                        https://jaszewski.art/media/series/grand-silica_2000.webp 2000w,
+                                        https://jaszewski.art/media/series/grand-silica_2560.webp 2560w,
+                                        https://jaszewski.art/media/series/grand-silica_3000.webp 3000w"
+                                alt="Jakub Jaszewski - 'Arca Astralis', a colorful, artistic, science-fiction themed digital dye print with blue space Ark from Grand Silica series." loading="lazy">
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-pagination"></div>
+
+                </div>
+                <hr class="separator light-mode">
+            </div>
+
+        </div>
 
 <!-- FOOTER -->
 
-	<div id="foot-box">
-		<div class="footer dark-mode">© Jakub Jaszewski, All rights reserved</div>
-	</div>
+    <div id="foot-box">
+        <div class="footer dark-mode">© Jakub Jaszewski, All rights reserved</div>
+    </div>
 
-	<script>
-		// NAVIGATION
-		function toggleMenuLeft() {
-			const menuLeft = document.getElementById('menu-left');
-			menuLeft.classList.toggle('width0');
-			menuLeft.classList.toggle('width100');
-		}
-	</script>
+    <script src="https://jaszewski.art/swiper@7.3.1/swiper-bundle.min.js"></script>
 
-	<script>
-		/// THEME TOGGLE
-		function toggleMode() {
-			const divs = document.querySelectorAll('.dark-mode, .light-mode');
-			divs.forEach(div => {
-				div.classList.toggle('dark-mode');
-				div.classList.toggle('light-mode');
-			});
-			const menuLeft = document.getElementById('t-line');
-			menuLeft.classList.toggle('line-light');
-			menuLeft.classList.toggle('line-dark');
-		}
-	</script>
+    <script>
+    // SWIPER
+    var swiper = new Swiper(".mySwiper", {
+        pointerCursor: false,
+        loop: true,
+        keyboard: {
+            enabled: false,
+            onlyInViewport: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: false,
+        },
+        zoom: true,
+        zoom: {
+            maxRatio: 6,
+            toggle: false,
+        },
+    });
+    // NAVIGATION
+    function toggleMenuLeft() {
+        const menuLeft = document.getElementById('menu-left');
+        menuLeft.classList.toggle('width0');
+        menuLeft.classList.toggle('width100');
+    }
+    // THEME TOGGLE
+    function toggleMode() {
+        const divs = document.querySelectorAll('.dark-mode, .light-mode');
+        divs.forEach(div => {
+            div.classList.toggle('dark-mode');
+            div.classList.toggle('light-mode');
+        });
+        const menuLeft = document.getElementById('t-line');
+        menuLeft.classList.toggle('line-light');
+        menuLeft.classList.toggle('line-dark');
+    }
+    </script>
 
 </body>
 </html>
