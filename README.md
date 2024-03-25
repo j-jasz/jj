@@ -4,7 +4,6 @@ Personal website.
 
 TODO:
 - news/blog
-   - ŁÓDŹ
    - MARIA ?
    - POMERANIA
    - AI
