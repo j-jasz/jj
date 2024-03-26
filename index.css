@@ -1198,7 +1198,7 @@ h1, h2, h3, h4 {
     position: relative;
     margin: 0 10vh 0 10vh;
     width: calc(100vw - 20vh);
-    height: 16vh;
+    height: 12vh;
     font-size: 1.7rem;
     color: white;
     background-color: #da002c;
@@ -1212,14 +1212,14 @@ h1, h2, h3, h4 {
 }
 .spacer {
     width: 100%;
-    height: 10vh;
+    height: 7vh;
 }
 .link-box a:link {
     display: inline-block;
     margin: 0;
-    padding-top: 6vh;
+    padding-top: 5vh;
     width: 100%;
-    height: 16vh;
+    height: 12vh;
     text-align: center;
     color: #fff;
     cursor: pointer;
