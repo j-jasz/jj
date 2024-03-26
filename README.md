@@ -9,4 +9,3 @@ TODO:
    - AI
 - gallery
    - MARIA
-- Github link
