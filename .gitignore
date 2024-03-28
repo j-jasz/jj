@@ -6,8 +6,7 @@
 /favicon_package_v0.16
 
 # files
-.htaccess
-.htaccess-BACKUP
+*.htaccess
 folder.png
 projects
 robots.txt
