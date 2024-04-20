@@ -642,6 +642,16 @@ h1, h2, h3, h4 {
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
 }
+@media only screen and (orientation:portrait) {
+    #theme {
+        top: 10vh;
+        left: 0;
+    }
+    #theme:hover {
+        box-shadow: none;
+        cursor: auto;
+    }
+}
 
 /*----------------------------------------------------------------THEMES----------------------------------------------------------------*/
 
@@ -715,6 +725,10 @@ ul.entry-menu li a:hover {
     margin: 0 0 0 2vh;
     font-size: 1.2rem;
 }
+h1 {
+    text-align: center;
+    padding: 0 3vw o 3vw;
+}
 h2 {
     padding: 0;
     margin: 0 0 2vh 0;
@@ -751,6 +765,37 @@ h3 {
     height: 1px;
     margin: 5vh 0 5vh 0;
 }
+@media only screen and (orientation:portrait) {
+    #wrapper-header-gallery {
+        margin-left: max(14vw, 10vh);
+        height: 10vh;
+    }
+    #column-menu {
+        margin-top: calc(max(2vh, 1vw) + 10vh);
+    }
+    .year {
+        font-size: 1.1rem;
+    }
+    .entry-menu {
+        font-size: 0.7rem;
+        padding-left: 2vw;
+    }
+    ul.entry-menu li a:hover {
+        color:#f3f3ff;
+    }
+    h1 {
+        font-size: 1.2rem;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    .two-column {
+        font-size: 0.85rem;
+    }
+}
 
 /*----------------------------------------------------------------VID----------------------------------------------------------------*/
 
@@ -779,7 +824,6 @@ h3 {
         margin-right: 0;
     }
 }
-/*  MOBILE STYLE: rozwijane menu u góry na prawo od hamburgera (ARCHIVE), tylko lista: 2020, 2021... (bez poszczególnych wpisów) */
 
 /*----------------------------------------------------------------FOOTER----------------------------------------------------------------*/
 

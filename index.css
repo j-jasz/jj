@@ -1195,6 +1195,9 @@ h1, h2, h3, h4 {
     background-image: radial-gradient(rgba(9,32,63,0.33), rgba(7,14,33,1));
 }
 .cont-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     margin: 0 10vh 0 10vh;
     width: calc(100vw - 20vh);
@@ -1214,13 +1217,13 @@ h1, h2, h3, h4 {
     width: 100%;
     height: 7vh;
 }
-.link-box a:link {
+.link-box {
     display: inline-block;
-    margin: 0;
-    padding-top: 5vh;
-    width: 100%;
-    height: 12vh;
     text-align: center;
+}
+.link-box a:link {
+    margin: 0;
+    width: 100%;
     color: #fff;
     cursor: pointer;
     transition: 0.3s;
@@ -1254,7 +1257,10 @@ h1, h2, h3, h4 {
         text-shadow: none;
     }
     .cookies {
-        bottom: 15vh;
+        bottom: 10vh;
+    }
+    .cont-box {
+        font-size: 3vh;
     }
     .cont-box:hover {
         background-color: #da002c;
