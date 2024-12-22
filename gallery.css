@@ -419,6 +419,7 @@ h1, h2, h3, h4 {
 @media (orientation:portrait), screen and (max-width: 1025px) {
     #logo-left img {
         opacity: 0;
+        backface-visibility: hidden;
         -webkit-backface-visibility: hidden;
         -webkit-animation: logoAnimation 2.5s ease 4s 1 normal forwards;
         -moz-animation: logoAnimation 2.5s ease 4s 1 normal forwards;
@@ -453,6 +454,7 @@ h1, h2, h3, h4 {
     }
     #hamburger {
         opacity: 1;
+        backface-visibility: hidden;
         -webkit-backface-visibility: hidden;
         -webkit-animation: barAnimation 2.5s ease 4s 1 normal forwards;
         -moz-animation: barAnimation 2.5s ease 4s 1 normal forwards;
@@ -759,6 +761,7 @@ h1, h2, h3, h4 {
 }
 #wrapper-header-gallery {
     opacity: 1;
+    backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     -webkit-animation: topBarAnimation 2.5s ease 4s 1 normal forwards;
     -moz-animation: topBarAnimation 2.5s ease 4s 1 normal forwards;
@@ -997,6 +1000,7 @@ h1, h2, h3, h4 {
     font-size: calc(5rem + 3vw);
     letter-spacing: 1vw;
     z-index: 100;
+    user-select: none; /* Firefox */
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* Internet Explorer */
     -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */

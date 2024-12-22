@@ -385,6 +385,7 @@ h1, h2, h3, h4 {
 @media (orientation:portrait), screen and (max-width: 1025px) {
     #logo-left img {
         opacity: 0;
+        backface-visibility: hidden;
         -webkit-backface-visibility: hidden;
         -webkit-animation: logoAnimation 2.5s ease 4s 1 normal forwards;
         -moz-animation: logoAnimation 2.5s ease 4s 1 normal forwards;
@@ -419,6 +420,7 @@ h1, h2, h3, h4 {
     }
     #hamburger {
         opacity: 1;
+        backface-visibility: hidden;
         -webkit-backface-visibility: hidden;
         -webkit-animation: barAnimation 2.5s ease 4s 1 normal forwards;
         -moz-animation: barAnimation 2.5s ease 4s 1 normal forwards;
