@@ -503,34 +503,36 @@
                     https://jaszewski.art/media/general/post-apo_3000.webp 3000w"
             alt="Jakub Jaszewski - 'Tank', detailed, black and white linocut of an upside down, destroyed tank from POST-APO series." loading="lazy">
 
-        <div class="cont-wrapper">
-            <div class="cont-box">
-                <div id="thing" class="link-box">
-                </div>
+        <div class="col-left">
+            <div id="thing" class="cont-box"></div>
+            <div class="spacer"></div>
+            <div class="cont-box z-top">
+                <a href="https://pragaleria.pl/aukcje-wystawy/jakub-jaszewski/" class="stretched-link">Pragaleria</a>
             </div>
             <div class="spacer"></div>
-            <div class="cont-box">
-                <div class="link-box">
-                    <a href="https://instagram.com/jaszewski.art">instagram</a>
-                </div>
+            <div class="cont-box z-top">
+                <a href="https://www.researchgate.net/profile/Jakub-Jaszewski" class="stretched-link">ResearchGate</a>
+            </div>
+        </div>
+
+        <div class="col-right">
+            <div class="cont-box z-top">
+                <a href="https://instagram.com/jaszewski.art" class="stretched-link">instagram</a>
             </div>
             <div class="spacer"></div>
-            <div class="cont-box">
-                <div class="link-box">
-                    <a href="https://pragaleria.pl/aukcje-wystawy/jakub-jaszewski/">Pragaleria</a>
-                </div>
+            <div class="cont-box z-top">
+                <a href="https://artfacts.net/artist/jakub-jaszewski/456419" class="stretched-link">ArtFacts</a>
             </div>
             <div class="spacer"></div>
-            <div class="cont-box">
-                <div class="link-box">
-                    <a href="https://artfacts.net/artist/jakub-jaszewski/456419">ArtFacts</a>
-                </div>
+            <div class="cont-box z-top">
+                <a href="https://orcid.org/0000-0003-1369-8404" class="stretched-link">ORCID</a>
             </div>
-            <div class="cookies">
-                Page source at <a href="https://github.com/j-jasz/jj">Github</a>.
-                <br><br>
-                🍪 cookie free zone
-            </div>
+        </div>
+
+        <div class="cookies">
+            Page source at <a href="https://github.com/j-jasz/jj">Github</a>.
+            <br><br>
+            🍪 cookie free zone
         </div>
 
     </div>
@@ -558,6 +560,7 @@
     // ADDRESS SCRAMBLING
     i='jakub'; j='jaszewski'; x='.'; p='art';
     document.getElementById('thing').innerHTML = '<' + 'A hre' + 'f="mai' + 'lto:' +i+ '@' +j+x+p+ '">em<span style="display:none">fo<!--oofoo-->o</span>ail</a>';
+    document.querySelector('#thing a')?.classList.add('stretched-link');
     // NAVIGATION
     function toggleMenuLeft() {
         const menuLeft = document.getElementById('menu-left');
